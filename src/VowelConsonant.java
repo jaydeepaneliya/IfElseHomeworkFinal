@@ -5,12 +5,12 @@ public class VowelConsonant {
 
     public static void main(String[] args) {
 
-        alphabet = 'a';
+        alphabet = 'p';
 
         if (alphabet == 'a' || alphabet == 'e' || alphabet == 'i' || alphabet == 'o' || alphabet == 'u'){
-            System.out.println("Consonant");
+            System.out.println(alphabet + " letter is Consonant");
         } else {
-            System.out.println("Vowel");
+            System.out.println(alphabet + " letter is Vowel");
         }
     }
 
